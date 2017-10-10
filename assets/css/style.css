@@ -1,4 +1,4 @@
-header {
+.topnav {
   background-color: #097ABC;
   background-attachment: fixed;
   width: 100%;
@@ -14,25 +14,28 @@ header {
   padding-left: 50px;
   text-decoration: none;
   color: white;
-  display: inline-block;
+
 
 }
 
 .topnav a:hover {
-  font-style: italic;
+  text-decoration: underline;
   background-color: white;
   color: #097ABC;
 }
 
 body {
-  background-image: url(http://bobbylisa.b.o.pic.centerblog.net/myeqsrz9.gif) ;
+  background-image: url(https://www.hdwallpapers.in/walls/city_at_beach_fantasy-wide.jpg) ;
   background-attachment: fixed;
 }
 
 h1 {
   text-shadow: 5px 5px 5px black;
   color: white;
-  text-align: center
+  text-align: center;
+  padding: 100px;
+  font-family: georgia, arial, serif;
+  font-size: 75px;
 }
 
 h2 {
@@ -43,17 +46,22 @@ h2 {
   border: 2px white solid;
   border-radius: 10px;
   box-shadow: 5px 5px 5px black;
+  
 }
 
 .presentation {
-  text-align: ;
+  text-align: center;
   font-size: 25px;
   padding: 10px;
   margin-left: auto;
 }
 
+.competence {
+
+}
+
 section {
-  background-color: white;
+  background-color: #ECE9D8;
   background-attachment: fixed;
   border: 2px black solid;
   border-radius: 10px;
@@ -64,4 +72,8 @@ section {
 
 img {
 float: left;
+}
+
+progress {
+color: #097ABC;
 }

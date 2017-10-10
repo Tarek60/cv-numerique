@@ -8,17 +8,17 @@
 <body>
   <header>
     <div class="topnav">
-      <a href="#">Présentation</a>
-      <a href="#">Compétences</a>
-      <a href="#formation">Formations</a>
-      <a href="#">Stage en entreprises</a>
-      <a href="#">Loisirs</a>
+      <a href="#title1">Présentation</a>
+      <a href="#title2">Compétences</a>
+      <a href="#title3">Formation</a>
+      <a href="#title4">Stage en entreprises</a>
+      <a href="#title5">Loisirs</a>
     </div>
   </header>
   <h1>Mon CV Numérique</h1>
   <!--Présentation-->
 
-  <h2>Présentation</h2>
+  <h2 id="title1">Présentation</h2>
   <section>
     <figure>
       <img src="https://cdn3.iconfinder.com/data/icons/tango-icon-library/48/image-x-generic-128.png" alt="photo de tarek" title="tarek">
@@ -32,18 +32,20 @@
   </section>
   </div>
   <!--Les compétences-->
-  <h2>Compétences</h2>
+  <h2 id="title2">Compétences</h2>
+  <div class="competence">
   <section>
-      <p>Terminal de commande sous linux (créer et ouvrir des fichiers/dossiers, se déplacer...)</p>
-      <p>Créer un dépot Git</p>
-      <p>Créer un Vhost</p>
-      <p>Se servir de Atom</p>
-      <p>HTML5</p>
-      <p>CSS3</p>
-      <p>PHP</p>
+      <p>Terminal de commande sous linux</p><progress value="70" max="100"></progress>
+      <p>Créer un dépot Git</p><progress value="75" max="100"></progress>
+      <p>Créer un Vhost</p><progress value="90" max="100"></progress>
+      <p>Se servir de Atom</p><progress value="70" max="100"></progress>
+      <p>HTML5</p><progress value="65" max="100"></progress>
+      <p>CSS3</p><progress value="40" max="100"></progress>
+      <p>PHP</p><progress value="15" max="100"></progress>
   </section>
+    </div>
   <!--Les foramtions-->
-  <h2 id="formation">Formations</h2>
+  <h2 id="title3">Formations</h2>
   <section>
     <p><strong>2016 – 2017</strong>	Baccalauréat Professionnel S.E.N<br>
       Compiègne - France<br>
@@ -56,7 +58,7 @@
           Collège Ferdinand Bac</p>
         </section>
         <!--Les expèriences professionnelles-->
-        <h2>Stages en entreprises</h2>
+        <h2 id="title4">Stages en entreprises</h2>
         <section>
           <p><strong>Du 14/11/2016 au 17/12/2016 et Du 27/02/2017 au 18/03/2017</strong></p>
           <p><strong>Support informatique Mairie,</strong> Fonction Publique<br>
@@ -72,7 +74,7 @@
                 <em>Missions ou tâches réalisés</em> : Mise en place des rayons, Etiquetage.</p>
               </section>
               <!--Les loisirs-->
-              <h2>Loisirs</h2>
+              <h2 id="title5">Loisirs</h2>
               <section>
                 <ul>
                   <li>Jeux-vidéos</li>
