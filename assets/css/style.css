@@ -1,0 +1,67 @@
+header {
+  background-color: #097ABC;
+  background-attachment: fixed;
+  width: 100%;
+  height: 50px;
+  border: 2px white solid;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black;
+}
+
+.topnav a {
+  font-size: 20px;
+  font-style: normal;
+  padding-left: 50px;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+
+}
+
+.topnav a:hover {
+  font-style: italic;
+  background-color: white;
+  color: #097ABC;
+}
+
+body {
+  background-image: url(http://bobbylisa.b.o.pic.centerblog.net/myeqsrz9.gif) ;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-shadow: 5px 5px 5px black;
+  color: white;
+  text-align: center
+}
+
+h2 {
+  font-family: georgia, arial, serif;
+  font-size: 2em;
+  text-align: center;
+  background-color: #097ABC;
+  border: 2px white solid;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black;
+}
+
+.presentation {
+  text-align: ;
+  font-size: 25px;
+  padding: 10px;
+  margin-left: auto;
+}
+
+section {
+  background-color: white;
+  background-attachment: fixed;
+  border: 2px black solid;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black;
+  width: 70%;
+  margin: auto;
+}
+
+img {
+float: left;
+}
