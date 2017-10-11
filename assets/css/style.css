@@ -30,16 +30,49 @@
   margin-top: 3%;
   position: fixed;
   bottom: 0;
+  left: 0;
+  padding: 5px;
+}
+.bottomnav a {
+margin:
+
 }
 
-.bottomnav a  {
+#demarrer {
   font-size: 20px;
   font-style: italic;
   font-weight: bold;
-  padding-left: 50px;
   text-decoration: none;
   color: white;
+  background-color: #459432;
+  padding: 10px;
+  ;
+}
 
+#presentation {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+#competences {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+#formations {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+#stages {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+#loisirs {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
 }
 body {
   background-image: url(https://wallpaperhdzone.com/wp-content/uploads/2016/09/bliss-wallpaper1.jpg) ;
@@ -59,7 +92,7 @@ h2 {
   font-family: georgia, arial, serif;
   font-size: 2em;
   text-align: center;
-  background-color: #235BDA;
+  background-color: yellow;
   border: 2px white solid;
   border-radius: 10px;
   box-shadow: 5px 5px 5px black;
