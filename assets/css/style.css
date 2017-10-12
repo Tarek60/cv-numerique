@@ -1,76 +1,3 @@
-.windows1 {
-  float: left;
-}
-
-.windows2 {
-  float: right;
-}
-
-
-.bottomnav {
-  background-image: url(https://image.noelshack.com/fichiers/2017/41/4/1507790768-barre2a.png);
-  background-attachment: local;
-  width: 100%;
-  height: 3%;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  padding: 7.5px;
-  box-shadow: 5px 0px black;
-}
-
-.bottomnav a {
-
-
-}
-
-#demarrer {
-  font-size: 20px;
-  font-style: italic;
-  font-weight: bold;
-  text-decoration: none;
-  color: white;
-  background-color: #459432;
-  padding: 10px;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-
-}
-
-#presentation {
-  text-decoration: none;
-  color: white;
-  padding: 8px;
-}
-#competences {
-  text-decoration: none;
-  color: white;
-  padding: 8px;
-
-}
-#formations {
-  text-decoration: none;
-  color: white;
-  padding: 8px;
-}
-#stages {
-  text-decoration: none;
-  color: white;
-  padding: 8px;
-}
-#loisirs {
-  text-decoration: none;
-  color: white;
-  padding: 8px;
-}
-body {
-  background-image: url(https://wallpaperhdzone.com/wp-content/uploads/2016/09/bliss-wallpaper1.jpg) ;
-  background-attachment: fixed;
-}
-
 h1 {
   text-shadow: 5px 5px 5px black;
   color: white;
@@ -80,21 +7,19 @@ h1 {
   font-size: 75px;
 }
 
-h2 {
-  font-family: georgia, arial, serif;
-  font-size: 2em;
-  text-align: center;
-  background-color: yellow;
-  border: 2px white solid;
-  border-radius: 10px;
-  box-shadow: 5px 5px 5px black;
-
-
-}
-
-#tarek {
+.windows1 {
   float: left;
 }
+
+.windows2 {
+  float: right;
+}
+
+body {
+  background-image: url(https://wallpaperhdzone.com/wp-content/uploads/2016/09/bliss-wallpaper1.jpg) ;
+  background-attachment: fixed;
+}
+
 
 .presentation {
   text-align: center;
@@ -103,9 +28,17 @@ h2 {
   margin-left: auto;
 }
 
-.competence {
-  padding: 5px;
+#tarek {
+  float: left;
+}
 
+.competence {
+  padding: 20px;
+
+}
+
+progress {
+  color: #097ABC;
 }
 
 .formations {
@@ -133,6 +66,21 @@ section {
   margin-right: auto;
   margin-top: 5%;
   margin-bottom: 5%;
+}
+
+.croix {
+  float: right;
+  margin-top: 5px;
+}
+
+.agrandir {
+  float: right;
+  margin-top: 5px;
+}
+
+.reduire {
+  float: right;
+  margin-top: 5px;
 }
 
 .title1 {
@@ -172,10 +120,59 @@ section {
   font-family: georgia, arial, serif;
 }
 
+
+
+.bottomnav {
+  background-image: url(https://image.noelshack.com/fichiers/2017/41/4/1507790768-barre2a.png);
+  background-attachment: local;
+  width: 100%;
+  height: 3%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 7.5px;
+  box-shadow: 5px 0px black;
 }
 
+.bottomnav a {
 
 
-progress {
-  color: #097ABC;
+}
+
+#demarrer {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  background-color: #459432;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+#presentation {
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+}
+#competences {
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+
+}
+#formations {
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+}
+#stages {
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+}
+#loisirs {
+  text-decoration: none;
+  color: white;
+  padding: 8px;
 }
