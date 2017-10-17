@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'marteldemibold';
+    src: url('martel-demibold-webfont.eot');
+    src: url('martel-demibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('martel-demibold-webfont.woff2') format('woff2'),
+         url('martel-demibold-webfont.woff') format('woff'),
+         url('martel-demibold-webfont.ttf') format('truetype'),
+         url('martel-demibold-webfont.svg#marteldemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
