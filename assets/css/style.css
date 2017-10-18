@@ -31,9 +31,7 @@ body {
 
 }
 
-progress {
-  color: #097ABC;
-}
+
 
 .formations {
   padding: 20px;
@@ -222,4 +220,20 @@ progress {
   float: right;
   margin-top: -6px;
   margin-right: 25px;
+}
+
+.ligne1 {
+  display: inline-block;
+  padding: 10px;
+}
+
+.ligne2 {
+  display: inline-block;
+  padding: 10px;
+
+}
+
+.ligne3 {
+  display: inline-block;
+  padding: 10px;
 }
