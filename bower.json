@@ -1,0 +1,21 @@
+{
+  "name": "cv_numerique",
+  "homepage": "https://github.com/Tarek60/cv-numerique",
+  "authors": [
+    "Tarek <tarek.elouatar@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

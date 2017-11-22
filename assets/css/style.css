@@ -5,9 +5,9 @@ h1 {
   padding: 100px;
   font-size: 75px;
 }
- p {
-   font-size: 18px;
- }
+p {
+  font-size: 18px;
+}
 
 body {
   background-image: url(https://wallpaperhdzone.com/wp-content/uploads/2016/09/bliss-wallpaper1.jpg) ;
@@ -104,19 +104,66 @@ body {
   margin-top: 5%;
   margin-bottom: 5%;
 }
-
-
-.croix {
+/* bouton pour fermer la fenetre */
+.croix1  {
   float: right;
   margin-top: 5px;
 }
-
-.agrandir {
+.croix2  {
   float: right;
   margin-top: 5px;
 }
-
-.reduire {
+.croix3  {
+  float: right;
+  margin-top: 5px;
+}
+.croix4  {
+  float: right;
+  margin-top: 5px;
+}
+.croix5  {
+  float: right;
+  margin-top: 5px;
+}
+/* bouton pour agrandir la fenetre */
+.agrandir1 {
+  float: right;
+  margin-top: 5px;
+}
+.agrandir2 {
+  float: right;
+  margin-top: 5px;
+}
+.agrandir3 {
+  float: right;
+  margin-top: 5px;
+}
+.agrandir4 {
+  float: right;
+  margin-top: 5px;
+}
+.agrandir5 {
+  float: right;
+  margin-top: 5px;
+}
+/* bouton pour reduire la fenetre */
+.reduire1 {
+  float: right;
+  margin-top: 5px;
+}
+.reduire2 {
+  float: right;
+  margin-top: 5px;
+}
+.reduire3 {
+  float: right;
+  margin-top: 5px;
+}
+.reduire4 {
+  float: right;
+  margin-top: 5px;
+}
+.reduire5 {
   float: right;
   margin-top: 5px;
 }
